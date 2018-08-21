@@ -1,0 +1,19 @@
+{
+  "name": "nslink",
+  "main": "./lib/nslink",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "nslink:toggle"
+  },
+  "repository": "https://github.com/atom/nslink",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "express": "*"
+  }
+}

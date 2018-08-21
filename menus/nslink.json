@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle nslink",
+        "command": "nslink:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "nslink",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "nslink:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
