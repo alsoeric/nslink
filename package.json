@@ -8,12 +8,13 @@
   "activationCommands": {
     "atom-workspace": "nslink:toggle"
   },
-  "repository": "https://github.com/atom/nslink",
+  "repository": "https://github.com/alsoeric/nslink",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "express": "*"
+    "express": "*",
+    "jsonrpc2-express": "*"
   }
 }
